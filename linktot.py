@@ -32,7 +32,7 @@ if type == 'backlink':
     response = requests.options('https://linktot.net/ping_backlink.php', headers=headers)
 print('Pending...')
 if response.status_code == 200:
-    time.sleep(100)
+    time.sleep(80)
     gheaders = {
         'accept': '*/*',
         'accept-language': 'en-US,en;q=0.9',
